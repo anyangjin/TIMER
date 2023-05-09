@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Pretendard-Regular";
+
+  width: 100%;
+  height: 1000px;
+  background: radial-gradient(
+    96.74% 276.79% at 3.59% 5.28%,
+    #f0f4ff 0%,
+    #a5b6ee 100%
+  );
+}
+
+img {
+  width: 244px;
+  height: 48px;
+}
+.weniv-logo {
+  margin-top: 100px;
+  text-align: center;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  margin-top: 60px;
+}
+.container {
+  text-align: center;
+  width: 400px;
+  height: 360px;
+  /* gradient */
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  /* shadow */
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+}
+.timer-h1 {
+  margin: 0px auto;
+  margin-top: 50px;
+  padding: 20px;
+  left: 603px;
+  top: 228px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.timer-line {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  width: 312px;
+  height: 1px;
+  left: 484px;
+  top: 280px;
+  text-align: center;
+  background: #3d538a;
+}
+.timer {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.hms {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 12px;
+  color: #a5b6ee;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* .timer-btn {
+        background: #324577;
+        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 50px;
+      } */
+#start-button,
+#pause-button,
+#reset-button {
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 80px;
+  height: 40px;
+  /* background: #324577; */
+  /* box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05); */
+  border-radius: 50px;
+  box-shadow: none;
+  /* border: 2px solid white; */
+  border: none;
+}
+#start-button {
+  color: white;
+  background: #5180ff;
+}
+#pause-button {
+  color: white;
+  background: #fb7099;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#reset-button {
+  color: white;
+  background: #15c2b8;
+}
